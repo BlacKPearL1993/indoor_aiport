@@ -1,0 +1,26 @@
+{% extends 'admin/admin_temp.html' %}
+{% block body %}
+<form id="form1" name="form1" method="post" action="">
+  <table class="table table-striped">
+          <thead class="thead-light">
+    <tr>
+      <th>Sl No.</th>
+      <th>Service Name</th>
+      <th>Description</th>
+      <th>&nbsp;</th>
+      <th>&nbsp;</th>
+      <th>&nbsp;</th>
+    </tr>
+          </thead>
+      {% for i in data %}
+    <tr>
+      <td width="80">&nbsp;{{ loop.index }}</td>
+      <td width="200">&nbsp;{{ i['service_name'] }}</td>
+      <td>&nbsp;{{ i['description'] }}</td>
+        <td width="50px"><a class="btn btn-danger" href="/admin_delete_service/{{ i['service_id'] }}" onclick="return confirm('Are you sure?')"><font color="#FFFFFF">Delete</font></a></td>
+        <td width="50px"><a class="btn btn-info" href="/add_schedule/{{ i['service_id'] }}" ><font color="#FFFFFF">Add Schedule</font></a></td>
+        <td width="50px"><a class="btn btn-warning" href="/admin_view_schedule/{{ i['service_id'] }}" ><font color="#FFFFFF">View Schedule</font></a></td>
+    </tr>{% endfor %}
+  </table>
+</form>
+{% endblock %}

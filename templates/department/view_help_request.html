@@ -1,0 +1,25 @@
+{% extends 'Department/dept_temp.html' %}
+{% block body %}
+<form id="form1" name="form1" method="post" action="">
+  <table class="table table-bordered">
+    <tr>
+      <td>Sl No.</td>
+      <td>Passenger Info</td>
+      <td>Request Details</td>
+      <td>Date</td>
+      <td>Time</td>
+      <td>Status</td>
+    </tr>
+    {% for i in data %}
+      <tr>
+        <td>{{ loop.index }}</td>
+        <td>{{ i['first_name'] }}&nbsp;{{ i['last_name'] }}</td>
+        <td>{{ i['request_details'] }}</td>
+        <td>{{ i['date'] }}</td>
+        <td>{{ i['time'] }}</td>
+        <td><a href="/dept_allocate_request/{{ i['help_request_id'] }}" class="btn btn-info">Allocate staff</a> </td>
+      </tr>
+    {% endfor %}
+  </table>
+</form>
+{% endblock %}

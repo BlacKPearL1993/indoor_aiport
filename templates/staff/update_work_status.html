@@ -1,0 +1,19 @@
+{% extends 'staff/staff_temp.html' %}
+{% block body %}
+<form id="form1" name="form1" method="post" action="" enctype="multipart/form-data">
+
+<table style="width: 500px;" align="center" class="table table-striped">
+  <tr>
+    <td>Narration</td>
+    <td>
+          <textarea rows="5" cols="45" name="textarea" id="textarea" class="form-control" required></textarea>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center">
+      <input type="submit" name="button" id="button" value="Add" class="btn btn-primary"/>
+    </td>
+  </tr>
+</table>
+</form>
+{% endblock %}

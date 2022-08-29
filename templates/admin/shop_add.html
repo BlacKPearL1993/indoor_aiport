@@ -1,0 +1,63 @@
+{% extends 'admin/admin_temp.html' %}
+{% block body %}
+<form id="form1" name="form1" method="post" action="">
+  <table style="width: 500px;" align="center" class="table table-striped">
+    <tr>
+      <td>Name</td>
+      <td>
+      <input type="text" name="textfield" id="textfield" class="form-control" required /></td>
+    </tr>
+    <tr>
+      <td>Shop No</td>
+      <td>
+      <input type="text" name="textfield2" id="textfield2" class="form-control" required /></td>
+    </tr>
+    <tr>
+      <td>Email</td>
+      <td>
+      <input type="email" name="textfield3" id="textfield3" class="form-control" required /></td>
+    </tr>
+    <tr>
+      <td>Phone</td>
+      <td>
+      <input type="text" name="textfield4" id="textfield4" class="form-control" required /></td>
+    </tr>
+    <tr>
+      <td>Floor</td>
+      <td>
+        <input type="text" name="textfield5" id="textfield5" class="form-control" required /></td>
+    </tr>
+    <tr>
+      <td colspan="2" align="center">
+        <input type="submit" name="button" id="button" value="ADD" class="btn btn-success" />
+      </td>
+    </tr>
+  </table>
+    <br><br>
+    <table class="table table-striped">
+      <thead class="thead-light">
+        <tr>
+          <td>Sl. No.</td>
+          <td>Shop Name</td>
+          <td>Shop No</td>
+          <td>Email</td>
+          <td>Phone</td>
+          <td>Floor No</td>
+          <td></td>
+        </tr>
+      </thead>
+        {% for i in data %}
+      <tr>
+        <td>{{ loop.index }}</td>
+        <td>{{ i['shop_name'] }}</td>
+        <td>{{ i['shop_no'] }}</td>
+        <td>{{ i['email'] }}</td>
+        <td>{{ i['phone'] }}</td>
+        <td>{{ i['floor_no'] }}</td>
+        <td><a href="/admin_delete_shops/{{ i['shop_id'] }}/{{ i['building_id'] }}" class="btn btn-danger" onclick="return confirm('Are you sure?')">Remove</a> </td>
+      </tr>
+        {% endfor %}
+    </table>
+</form>
+
+{% endblock %}

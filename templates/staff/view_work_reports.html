@@ -1,0 +1,23 @@
+{% extends 'staff/staff_temp.html' %}
+{% block body %}
+<form id="form1" name="form1" method="post" action="">
+  <table class="table table-striped">
+    <thead class="thead-light">
+      <tr>
+        <th>Sl No.</th>
+        <th>Date</th>
+        <th>Time</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    {% for i in data %}
+      <tr>
+        <td width="80">&nbsp;{{ loop.index }}</td>
+        <td width="200">&nbsp;{{ i['date'] }}</td>
+        <td>{{ i['time'] }}</td>
+        <td>{{ i['narration'] }}</td>
+      </tr>
+    {% endfor %}
+  </table>
+</form>
+{% endblock %}

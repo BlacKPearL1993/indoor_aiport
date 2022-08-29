@@ -1,0 +1,23 @@
+{% extends 'admin/admin_temp.html' %}
+{% block body %}
+<form id="form1" name="form1" method="post" action="">
+  <table style="width: 500px;" align="center" class="table table-striped">
+    <tr>
+      <td>Building Name</td>
+      <td>
+      <input type="text" name="textfield" id="textfield" class="form-control" required /></td>
+    </tr>
+    <tr>
+      <td>No of floors</td>
+      <td>
+      <input type="text" name="textfield2" id="textfield2" class="form-control" required /></td>
+    </tr>
+    <tr>
+      <td colspan="2" align="center">
+        <input type="submit" name="button" id="button" value="ADD" class="btn btn-success" />
+      </td>
+    </tr>
+  </table>
+</form>
+
+{% endblock %}

@@ -1,0 +1,25 @@
+{% extends 'admin/admin_temp.html' %}
+{% block body %}
+<form id="form1" name="form1" method="post" action="">
+ <table class="table table-bordered">
+    <thead class="thead-light">
+      <tr>
+        <th>Sl No.</th>
+        <th>Passenger Info</th>
+        <th>Request Details</th>
+        <th>Date&amp;Time</th>
+        <th>Status</th>
+      </tr>
+   </thead>
+   {% for i in data %}
+     <tr>
+       <td>{{ loop.index }}</td>
+       <td>{{ i['first_name'] }}&nbsp;{{ i['last_name'] }} </td>
+       <td>{{ i['request_details'] }} </td>
+       <td>{{ i['date'] }}&nbsp;{{ i['time'] }} </td>
+       <td>{{ i['status'] }}</td>
+     </tr>
+   {% endfor %}
+  </table>
+</form>
+{% endblock %}

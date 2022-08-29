@@ -1,0 +1,24 @@
+{% extends 'admin/admin_temp.html' %}
+{% block body %}
+<form id="form1" name="form1" method="post" action="">
+  <table class="table table-striped">
+          <thead class="thead-light">
+    <tr>
+      <th>Sl No.</th>
+      <th>Building Name</th>
+      <th>Number of Floors</th>
+      <th>&nbsp;</th>
+      <th>&nbsp;</th>
+    </tr>
+          </thead>
+      {% for i in data %}
+    <tr>
+      <td width="80">&nbsp;{{ loop.index }}</td>
+      <td>&nbsp;{{ i['building_name'] }}</td>
+      <td>{{ i['no_of_floors'] }}</td>
+        <td width="50px"><a class="btn btn-danger" href="/admin_delete_building/{{ i['building_id'] }}" onclick="return confirm('Are you sure?')"><font color="#FFFFFF">Delete</font></a></td>
+        <td width="50px"><a class="btn btn-info" href="/admin_shops_add/{{ i['building_id'] }}"><font color="#FFFFFF">Shops</font></a></td>
+    </tr>{% endfor %}
+  </table>
+</form>
+{% endblock %}

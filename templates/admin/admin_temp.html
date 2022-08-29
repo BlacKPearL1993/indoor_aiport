@@ -1,0 +1,212 @@
+﻿<!DOCTYPE html>
+<!-- 
+Template Name: BRILLIANT Bootstrap Admin Template
+Version: 4.5.6
+Author: WebThemez
+Website: http://www.webthemez.com/ 
+-->
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ha">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta content="" name="description" />
+    <meta content="webthemez" name="author" />
+    <title>INDOOR AIRPORT</title>
+    <!-- Bootstrap Styles-->
+    <link href="/static/temp/assets/css/bootstrap.css" rel="stylesheet" />
+    <!-- FontAwesome Styles-->
+    <link href="/static/temp/assets/css/font-awesome.css" rel="stylesheet" />
+    <!-- Morris Chart Styles-->
+    <link href="/static/temp/assets/js/morris/morris-0.4.3.min.css" rel="stylesheet" />
+    <!-- Custom Styles-->
+    <link href="/static/temp/assets/css/custom-styles.css" rel="stylesheet" />
+    <!-- Google Fonts-->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
+    <link rel="stylesheet" href="/static/temp/assets/js/Lightweight-Chart/cssCharts.css">
+</head>
+
+<body>
+    <div id="wrapper">
+        <nav class="navbar navbar-default top-navbar" role="navigation">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".sidebar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#"><strong><i class="icon fa fa-plane"></i> INDOOR AIRPORT</strong></a>
+				
+		<div id="sideNav" href="">
+		<i class="fa fa-bars icon"></i> 
+		</div>
+            </div>
+
+            <ul class="nav navbar-top-links navbar-right">
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#" aria-expanded="false">
+                        <i class="fa fa-user fa-fw"></i> <i class="fa fa-caret-down"></i>
+                    </a>
+                    <ul class="dropdown-menu dropdown-user">
+{#                        <li><a href="#"><i class="fa fa-user fa-fw"></i> User Profile</a>#}
+{#                        </li>#}
+{#                        <li><a href="#"><i class="fa fa-gear fa-fw"></i> Settings</a>#}
+{#                        </li>#}
+                        <li class="divider"></li>
+                        <li><a href="/"><i class="fa fa-sign-out fa-fw"></i> Logout</a>
+                        </li>
+                    </ul>
+                    <!-- /.dropdown-user -->
+                </li>
+                <!-- /.dropdown -->
+            </ul>
+        </nav>
+        <!--/. NAV TOP  -->
+        <nav class="navbar-default navbar-side" role="navigation">
+            <div class="sidebar-collapse">
+                <ul class="nav" id="main-menu">
+
+                    <li>
+                        <a class="active-menu" href="/admin_home"><i class="fa fa-dashboard"></i> Dashboard</a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-sitemap"></i>DEPARTMENT<span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level">
+                            <li>
+                                <a href="/dept_add">Add</a>
+                            </li>
+                            <li>
+                                <a href="/dept_view">View</a>
+                            </li>
+							</ul>
+						</li>
+                        <li>
+                        <a href="#"><i class="fa fa-building-o"></i>BUILDING<span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level">
+                            <li>
+                                <a href="/admin_add_building">Add</a>
+                            </li>
+                            <li>
+                                <a href="/admin_view_building">View</a>
+                            </li>
+							</ul>
+						</li>
+                        <li>
+                        <a href="#"><i class="fa fa-plane"></i>SERVICE<span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level">
+                            <li>
+                                <a href="/admin_add_service">Add</a>
+                            </li>
+                            <li>
+                                <a href="/admin_view_service">View</a>
+                            </li>
+							</ul>
+						</li>
+					 
+
+							
+                    <li>
+                        <a href="/admin_help_request"><i class="fa fa-qrcode"></i> Help Request View</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/"><i class="fa fa-table"></i> Logout</a>
+                    </li>
+
+
+                  
+                </ul>
+
+            </div>
+
+        </nav>
+        <!-- /. NAV SIDE  -->
+      
+		<div id="page-wrapper">
+		  <div class="header"> 
+                        <h1 class="page-header">
+                            Welcome ADMIN <br><small>Admin Dashboard</small>
+                        </h1>
+
+									
+		</div>
+            <div id="page-inner">
+				     <div class="row">
+                         {% block body %}
+                         {% endblock %}
+                        <!-- <div class="col-sm-6 col-xs-12">   -->
+                            <!-- <div class="panel panel-default chartJs"> -->
+                                <!-- <div class="panel-heading"> -->
+                                    <!-- <div class="card-title"> -->
+                                        <!-- <div class="title">Line Chart</div> -->
+                                    <!-- </div> -->
+                                <!-- </div> -->
+                                <!-- <div class="panel-body"> -->
+                                    <!-- <canvas id="line-chart" class="chart"></canvas> -->
+                                <!-- </div> -->
+                            <!-- </div> -->
+                        <!-- </div> -->
+                        <!-- <div class="col-sm-6 col-xs-12"> -->
+                            <!-- <div class="panel panel-default chartJs"> -->
+                                <!-- <div class="panel-heading"> -->
+                                    <!-- <div class="card-title"> -->
+                                        <!-- <div class="title">Bar Chart</div> -->
+                                    <!-- </div> -->
+                                <!-- </div> -->
+                                <!-- <div class="panel-body"> -->
+                                    <!-- <canvas id="bar-chart" class="chart"></canvas> -->
+                                <!-- </div> -->
+                            <!-- </div> -->
+                        <!-- </div> -->
+                    </div>
+				
+		<div class="row">
+
+		</div>
+
+				<div class="row">
+				<div class="col-md-12">
+				
+					</div>		
+				</div>
+		
+				<footer><p>All right reserved.</p>
+				
+        
+				</footer>
+            </div>
+            <!-- /. PAGE INNER  -->
+        </div>
+        <!-- /. PAGE WRAPPER  -->
+    </div>
+    <!-- /. WRAPPER  -->
+    <!-- JS Scripts-->
+    <!-- jQuery Js -->
+    <script src="/static/temp/assets/js/jquery-1.10.2.js"></script>
+    <!-- Bootstrap Js -->
+    <script src="/static/temp/assets/js/bootstrap.min.js"></script>
+	 
+    <!-- Metis Menu Js -->
+    <script src="/static/temp/assets/js/jquery.metisMenu.js"></script>
+    <!-- Morris Chart Js -->
+    <script src="/static/temp/assets/js/morris/raphael-2.1.0.min.js"></script>
+    <script src="/static/temp/assets/js/morris/morris.js"></script>
+	
+	
+	<script src="/static/temp/assets/js/easypiechart.js"></script>
+	<script src="/static/temp/assets/js/easypiechart-data.js"></script>
+	
+	 <script src="/static/temp/assets/js/Lightweight-Chart/jquery.chart.js"></script>
+	
+    <!-- Custom Js -->
+    <script src="/static/temp/assets/js/custom-scripts.js"></script>
+
+      
+    <!-- Chart Js -->
+    <script type="text/javascript" src="/static/temp/assets/js/Chart.min.js"></script>
+    <script type="text/javascript" src="/static/temp/assets/js/chartjs.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,28 @@
+{% extends 'staff/staff_temp.html' %}
+{% block body %}
+<form id="form1" name="form1" method="post" action="">
+  <table style="width: 500px;" align="center" class="table table-striped">
+    <tr>
+      <td>Name</td>
+      <td>{{ data['first_name'] }} {{ data['last_name'] }}</td>
+    </tr>
+    <tr>
+      <td>Department</td>
+      <td>{{ data['dep_name'] }}</td>
+    </tr>
+    <tr>
+      <td>Address</td>
+      <td>{{ data['house_name'] }}<br>{{ data['place'] }}</td>
+    </tr>
+    <tr>
+      <td>Email</td>
+      <td>{{ data['email'] }}</td>
+    </tr>
+    <tr>
+      <td>Phone</td>
+      <td>{{ data['phone'] }}</td>
+    </tr>
+  </table>
+</form>
+
+{% endblock %}

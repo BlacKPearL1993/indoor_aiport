@@ -1,0 +1,36 @@
+{% extends 'Department/dept_temp.html' %}
+{% block body %}
+<form id="form1" name="form1" method="post" action="">
+  <table style="width: 500px;" align="center" class="table table-striped">
+    <tr>
+      <td>First Name</td>
+      <td>
+      <input type="text" name="textfield" id="textfield" value="{{ data['first_name'] }}" required/></td>
+    </tr>
+    <tr>
+      <td>Last Name</td>
+      <td>
+      <input type="text" name="textfield2" id="textfield2" value="{{ data['last_name'] }}" required/></td>
+    </tr>
+    <tr>
+      <td>House</td>
+      <td>
+      <input type="text" name="textfield3" id="textfield3" value="{{ data['house_name'] }}" required/></td>
+    </tr>
+    <tr>
+      <td>Place</td>
+      <td>
+      <input type="text" name="textfield4" id="textfield4" value="{{ data['place'] }}" required/></td>
+    </tr>
+    <tr>
+      <td>Phone</td>
+      <td>
+      <input type="text" name="phone" id="phone" pattern="^\d{10}" value="{{ data['phone'] }}" required/></td>
+    </tr>
+
+    <tr>
+      <td colspan="2" align="center"><input type="submit" name="button" id="button" value="Update" class="btn btn-primary"/></td>
+    </tr>
+  </table>
+</form>
+{% endblock %}
