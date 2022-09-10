@@ -127,6 +127,26 @@ def admin_delete_shops(shopid, bid):
     return redirect("/admin_shops_add/"+bid)
 
 
+@app.route("/admin_floor_places_add/<bid>", methods=['get', 'post'])
+def admin_floor_places_add(bid):
+    if request.method=="POST":
+        place_name=request.form['textfield']
+        floor_no=request.form['textfield2']
+        description=request.form['textfield3']
+        db=Db()
+        db.insert("INSERT INTO floor_places(place_name, floor_no, building_id, description) VALUES('"+ place_name+"', '"+floor_no+"', '"+bid+"', '"+description+"')")
+        return "<script>alert('Floor Place Added');window.location='/admin_floor_places_add/"+bid+"';</script>"
+    db=Db()
+    res=db.select("SELECT * FROM floor_places WHERE building_id='"+bid+"'")
+    return render_template("admin/floor_place_add.html", data=res)
+
+@app.route("/admin_delete_floor_place/<fid>/<bid>")
+def admin_delete_floor_place(fid, bid):
+    db=Db()
+    db.delete("DELETE FROM floor_places WHERE floor_places_id='"+fid+"'")
+    return redirect("/admin_floor_places_add/"+bid)
+
+
 
 @app.route('/admin_help_request')
 def admin_help_request():
@@ -183,7 +203,32 @@ def delete_schedule(sid):
     servid=session['servid']
     return redirect("/admin_view_schedule/"+servid)
 
+@app.route('/admin_addedges')
+def admin_addedges():
+    db=Db()
+    allqrcodes= db.select("SELECT `floor_places_id`,`place_name`,`floor_no` FROM `floor_places`")
+    qry = "SELECT id,direction,distance,a.place_name as 'aplace',b.place_name as 'bplace' FROM edges,floor_places AS a, floor_places AS b WHERE edges.qrcodea_id=a.floor_places_id AND edges.qrcodeb_id=b.floor_places_id"
+    alls = db.select(qry)
+    return render_template('admin/edges_add.html',d=allqrcodes,all=alls)
 
+
+@app.route('/admin_Addegespost',methods=['post'])
+def admin_Addegespost():
+    flrnamea=request.form["flrnamea"]
+    flrnameb=request.form["flrnameb"]
+    direction=request.form["dir"]
+    dist=request.form["distance"]
+    db=Db()
+    qry="INSERT INTO edges (`direction`,`distance`,`qrcodea_id`,`qrcodeb_id`) VALUES ('"+direction+"','"+dist+"','"+flrnamea+"','"+flrnameb+"')"
+    db.insert(qry)
+    return redirect("/admin_addedges")
+
+
+@app.route("/deleteedges/<id>")
+def deleteedges(id):
+    db=Db()
+    db.delete("DELETE FROM edges WHERE id='"+id+"'")
+    return redirect("/admin_addedges")
 
 
 
@@ -493,7 +538,7 @@ def and_view_service():
 def and_view_schedules():
     sid=request.form['sid']
     db=Db()
-    res=db.select("SELECT * FROM SCHEDULE WHERE service_id='"+sid+"'")
+    res=db.select("SELECT * FROM SCHEDULE WHERE service_id='"+sid+"' and date>=curdate()")
     if len(res)>0:
         return jsonify(status="ok", data=res)
     else:
@@ -502,7 +547,7 @@ def and_view_schedules():
 @app.route("/and_view_shops", methods=['post'])
 def and_view_shops():
     db=Db()
-    res=db.select("SELECT * FROM shops")
+    res=db.select("SELECT shops.*, buildings.building_name FROM shops, buildings WHERE buildings.building_id=shops.building_id")
     if len(res)>0:
         return jsonify(status="ok", data=res)
     else:
@@ -523,7 +568,7 @@ def and_view_products():
 def and_view_request_status():
     lid=request.form['lid']
     db=Db()
-    res=db.select("SELECT * FROM help_request WHERE passenger_id='"+lid+"'")
+    res=db.select("SELECT * FROM help_request left join staffs on help_request.staff_id=staffs.staff_id WHERE passenger_id='"+lid+"'")
     if len(res)>0:
         return jsonify(status="ok", data=res)
     else:
@@ -542,6 +587,32 @@ def and_send_request():
     details=request.form['details']
     db=Db()
     db.insert("INSERT INTO `help_request`(passenger_id, request_details, DATE, TIME, staff_id, STATUS) VALUES('"+lid+"', '"+details+"', CURDATE(), CURTIME(), '0', 'pending')")
+    return jsonify(status="ok")
+
+
+@app.route("/and_view_reply", methods=['post'])
+def and_view_reply():
+    lid=request.form['lid']
+    db=Db()
+    res=db.select("SELECT * FROM complaints where passenger_id='"+lid+"'")
+    if len(res)>0:
+        return jsonify(status="ok", data=res)
+    else:
+        return jsonify(status="no")
+
+@app.route("/and_delete_complaint", methods=['post'])
+def and_delete_complaint():
+    rid=request.form['rid']
+    db=Db()
+    db.delete("DELETE FROM complaints WHERE complaint_id='"+rid+"'")
+    return jsonify(status="ok")
+
+@app.route("/and_send_complaint", methods=['post'])
+def and_send_complaint():
+    lid=request.form['lid']
+    complaint=request.form['complaint']
+    db=Db()
+    db.insert("INSERT INTO `complaints`(passenger_id, complaint, DATE, TIME, reply) VALUES('"+lid+"', '"+complaint+"', CURDATE(), CURTIME(), 'pending')")
     return jsonify(status="ok")
 
 

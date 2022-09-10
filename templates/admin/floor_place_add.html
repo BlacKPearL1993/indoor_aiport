@@ -1,0 +1,46 @@
+{% extends 'admin/admin_temp.html' %}
+{% block body %}
+<form id="form1" name="form1" method="post" action="">
+  <table class="table table-bordered" style="width: 500px;" align="center">
+    <tr>
+      <td>Place Name</td>
+        <td>
+      <input type="text" name="textfield" id="textfield" class="form-control" required/></td>
+    </tr>
+    <tr>
+      <td>Floor Number</td>
+        <td>
+      <input type="text" name="textfield2" id="textfield2" class="form-control" required/></td>
+    </tr>
+    <tr>
+      <td>Description</td>
+      <td>
+          <textarea rows="5" name="textfield3" id="textfield3" class="form-control"  required></textarea></td>
+    </tr>
+    <tr>
+      <td colspan="2" align="center"><input type="submit" name="button" id="button" value="Add"  class="btn btn-primary"/></td>
+    </tr>
+  </table>
+  <br>
+  <table class="table table-striped">
+    <thead class="thead-light">
+      <tr>
+        <td>Sl No.</td>
+        <td>Place Name</td>
+        <td>Floor No.</td>
+        <td>Description</td>
+        <td>&nbsp;</td>
+      </tr>
+    </thead>
+    {% for i in data %}
+      <tr>
+        <td>{{ loop.index }}</td>
+        <td>{{ i['place_name'] }}</td>
+        <td>{{ i['floor_no'] }}</td>
+        <td>{{ i['description'] }}</td>
+        <td><a href="/admin_delete_floor_place/{{ i['floor_places_id'] }}/{{ i['building_id'] }}" onclick="return confirm('Are you sure?')">Delete</a> </td>
+      </tr>
+    {% endfor %}
+  </table>
+</form>
+{% endblock %}

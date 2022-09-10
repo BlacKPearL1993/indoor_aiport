@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f1ca543b-a704-4bcc-9a9d-09606314eb16" name="Default" comment="" />
+    <list default="true" id="f1ca543b-a704-4bcc-9a9d-09606314eb16" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/admin/edges_add.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/admin/floor_place_add.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vercel.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/indoor_aiport.py" afterPath="$PROJECT_DIR$/indoor_aiport.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/requirements.txt" afterPath="$PROJECT_DIR$/requirements.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/admin/admin_temp.html" afterPath="$PROJECT_DIR$/templates/admin/admin_temp.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/admin/building_view.html" afterPath="$PROJECT_DIR$/templates/admin/building_view.html" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,204 +19,124 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/indoor_aiport$indoor_aiport.coverage" NAME="indoor_aiport Coverage Results" MODIFIED="1661509267901" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/indoor_aiport$indoor_aiport.coverage" NAME="indoor_aiport Coverage Results" MODIFIED="1662796470532" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="indoor_aiport.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="indoor_aiport.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/indoor_aiport.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="11" column="40" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="549" selection-end-column="0" />
+            <state relative-caret-position="153">
+              <caret line="232" column="0" lean-forward="true" selection-start-line="232" selection-start-column="0" selection-end-line="232" selection-end-column="0" />
               <folding>
-                <element signature="e#0#13#0" expanded="true" />
-                <marker date="1661509267585" expanded="true" signature="483:565" ph="SELECT * FRO... login" />
-                <marker date="1661509267585" expanded="true" signature="874:920" ph="SELECT * FRO... department" />
-                <marker date="1661509267585" expanded="true" signature="874:933" ph="SELECT * FRO... department" />
-                <marker date="1661509267585" expanded="true" signature="1139:1191" ph="SELECT * FRO... department" />
-                <marker date="1661509267585" expanded="true" signature="1397:1507" ph="SELECT * FRO... staffs" />
-                <marker date="1661509267585" expanded="true" signature="1397:1520" ph="SELECT * FRO... staffs" />
-                <marker date="1661509267585" expanded="true" signature="2338:2412" ph="INSERT INTO `login`... " />
-                <marker date="1661509267585" expanded="true" signature="2338:2438" ph="INSERT INTO `login`... " />
-                <marker date="1661509267585" expanded="true" signature="2453:2514" ph="INSERT INTO `department`... " />
-                <marker date="1661509267585" expanded="true" signature="2453:2527" ph="INSERT INTO `department`... " />
-                <marker date="1661509267585" expanded="true" signature="2453:2553" ph="INSERT INTO `department`... " />
-                <marker date="1661509267585" expanded="true" signature="2741:2765" ph="SELECT * FRO... department" />
-                <marker date="1661509267585" expanded="true" signature="2926:2982" ph="DELETE FROM " />
-                <marker date="1661509267585" expanded="true" signature="3001:3047" ph="DELETE FROM " />
-                <marker date="1661509267585" expanded="true" signature="3343:3402" ph="INSERT INTO buildings... " />
-                <marker date="1661509267585" expanded="true" signature="3343:3414" ph="INSERT INTO buildings... " />
-                <marker date="1661509267585" expanded="true" signature="3343:3426" ph="INSERT INTO buildings... " />
-                <marker date="1661509267585" expanded="true" signature="3674:3697" ph="SELECT * FRO... buildings" />
-                <marker date="1661509267585" expanded="true" signature="3868:3911" ph="DELETE FROM " />
-                <marker date="1661509267585" expanded="true" signature="3868:3919" ph="DELETE FROM " />
-                <marker date="1661509267585" expanded="true" signature="4379:4436" ph="INSERT INTO login... " />
-                <marker date="1661509267585" expanded="true" signature="4379:4476" ph="INSERT INTO login... " />
-                <marker date="1661509267585" expanded="true" signature="4498:4677" ph="INSERT INTO shops... " />
-                <marker date="1661509267585" expanded="true" signature="4498:4686" ph="INSERT INTO shops... " />
-                <marker date="1661509267585" expanded="true" signature="4818:4857" ph="SELECT * FRO... shops" />
-                <marker date="1661509267585" expanded="true" signature="4818:4865" ph="SELECT * FRO... shops" />
-                <marker date="1661509267585" expanded="true" signature="5042:5076" ph="DELETE FROM " />
-                <marker date="1661509267585" expanded="true" signature="5042:5087" ph="DELETE FROM " />
-                <marker date="1661509267585" expanded="true" signature="5105:5149" ph="DELETE FROM " />
-                <marker date="1661509267585" expanded="true" signature="5291:5441" ph="SELECT `help... passenger" />
-                <marker date="1661509267585" expanded="true" signature="5291:5483" ph="SELECT `help... passenger" />
-                <marker date="1661509267585" expanded="true" signature="5786:5841" ph="INSERT INTO service... " />
-                <marker date="1661509267585" expanded="true" signature="5786:5864" ph="INSERT INTO service... " />
-                <marker date="1661509267585" expanded="true" signature="6108:6129" ph="SELECT * FRO... service" />
-                <marker date="1661509267585" expanded="true" signature="6297:6335" ph="DELETE FROM " />
-                <marker date="1661509267585" expanded="true" signature="6297:6343" ph="DELETE FROM " />
-                <marker date="1661509267585" expanded="true" signature="6696:6819" ph="INSERT INTO SCHEDULE... " />
-                <marker date="1661509267585" expanded="true" signature="6696:6829" ph="INSERT INTO SCHEDULE... " />
-                <marker date="1661509267585" expanded="true" signature="7112:7153" ph="SELECT * FRO... SCHEDULE" />
-                <marker date="1661509267585" expanded="true" signature="7112:7161" ph="SELECT * FRO... SCHEDULE" />
-                <marker date="1661509267585" expanded="true" signature="7320:7368" ph="DELETE FROM " />
-                <marker date="1661509267585" expanded="true" signature="7320:7370" ph="DELETE FROM " />
-                <marker date="1661509267585" expanded="true" signature="8117:8195" ph="INSERT INTO `login`... " />
-                <marker date="1661509267585" expanded="true" signature="8117:8222" ph="INSERT INTO `login`... " />
-                <marker date="1661509267585" expanded="true" signature="8240:8522" ph="INSERT INTO `staffs`... " />
-                <marker date="1661509267585" expanded="true" signature="8794:8853" ph="SELECT * FRO... staffs" />
-                <marker date="1661509267585" expanded="true" signature="9133:9179" ph="DELETE FROM " />
-                <marker date="1661509267585" expanded="true" signature="9198:9243" ph="DELETE FROM " />
-                <marker date="1661509267585" expanded="true" signature="9651:9834" ph="UPDATE `staf... " />
-                <marker date="1661509267585" expanded="true" signature="9979:10027" ph="SELECT * FRO... staffs" />
-                <marker date="1661509267585" expanded="true" signature="10355:10521" ph="INSERT INTO `works`... " />
-                <marker date="1661509267585" expanded="true" signature="10613:10655" ph="SELECT * FRO... staffs" />
-                <marker date="1661509267585" expanded="true" signature="10613:10679" ph="SELECT * FRO... staffs" />
-                <marker date="1661509267585" expanded="true" signature="10824:10899" ph="SELECT `work... staffs" />
-                <marker date="1661509267585" expanded="true" signature="11061:11111" ph="DELETE FROM " />
-                <marker date="1661509267585" expanded="true" signature="11269:11430" ph="SELECT `comp... passenger" />
-                <marker date="1661509267585" expanded="true" signature="11795:11855" ph="UPDATE compl... " />
-                <marker date="1661509267585" expanded="true" signature="11795:11862" ph="UPDATE compl... " />
-                <marker date="1661509267585" expanded="true" signature="12178:12252" ph="UPDATE `comp... " />
-                <marker date="1661509267585" expanded="true" signature="12384:12554" ph="SELECT `help... passenger" />
-                <marker date="1661509267585" expanded="true" signature="12947:13050" ph="UPDATE `help... " />
-                <marker date="1661509267585" expanded="true" signature="13190:13341" ph="SELECT * FRO... staffs" />
-                <marker date="1661509267585" expanded="true" signature="13278:13340" ph="SELECT staff... help_request" />
-                <marker date="1661509267585" expanded="true" signature="13689:13803" ph="SELECT * FRO... shops" />
-                <marker date="1661509267585" expanded="true" signature="14330:14435" ph="INSERT INTO product... " />
-                <marker date="1661509267585" expanded="true" signature="14330:14447" ph="INSERT INTO product... " />
-                <marker date="1661509267585" expanded="true" signature="14330:14458" ph="INSERT INTO product... " />
-                <marker date="1661509267585" expanded="true" signature="14330:14483" ph="INSERT INTO product... " />
-                <marker date="1661509267585" expanded="true" signature="14724:14761" ph="SELECT * FRO... product" />
-                <marker date="1661509267585" expanded="true" signature="14724:14785" ph="SELECT * FRO... product" />
-                <marker date="1661509267585" expanded="true" signature="14950:14996" ph="delete from " />
-                <marker date="1661509267585" expanded="true" signature="15343:15483" ph="SELECT * FRO... staffs" />
-                <marker date="1661509267585" expanded="true" signature="15654:15714" ph="SELECT * FRO... works" />
-                <marker date="1661509267585" expanded="true" signature="15999:16098" ph="INSERT INTO `work_status`... " />
-                <marker date="1661509267585" expanded="true" signature="15999:16108" ph="INSERT INTO `work_status`... " />
-                <marker date="1661509267585" expanded="true" signature="16380:16439" ph="update work " />
-                <marker date="1661509267585" expanded="true" signature="16380:16441" ph="update work " />
-                <marker date="1661509267585" expanded="true" signature="16596:16679" ph="SELECT * FRO... works" />
-                <marker date="1661509267585" expanded="true" signature="16853:16902" ph="SELECT * FRO... work_status" />
-                <marker date="1661509267585" expanded="true" signature="17086:17281" ph="SELECT `help... passenger" />
-                <marker date="1661509267585" expanded="true" signature="17086:17341" ph="SELECT `help... passenger" />
-                <marker date="1661509267585" expanded="true" signature="17529:17571" ph="update help_... " />
-                <marker date="1661509267585" expanded="true" signature="17529:17593" ph="update help_... " />
-                <marker date="1661509267585" expanded="true" signature="17529:17595" ph="update help_... " />
-                <marker date="1661509267585" expanded="true" signature="17529:17603" ph="update help_... " />
-                <marker date="1661509267585" expanded="true" signature="18062:18132" ph="INSERT INTO login... " />
-                <marker date="1661509267585" expanded="true" signature="18062:18149" ph="INSERT INTO login... " />
-                <marker date="1661509267585" expanded="true" signature="18167:18303" ph="INSERT INTO passenger... " />
-                <marker date="1661509267585" expanded="true" signature="18508:18590" ph="SELECT * FRO... login" />
-                <marker date="1661509267585" expanded="true" signature="18983:19027" ph="SELECT * FRO... passenger" />
-                <marker date="1661509267585" expanded="true" signature="18983:19035" ph="SELECT * FRO... passenger" />
-                <marker date="1661509267585" expanded="true" signature="19366:19387" ph="SELECT * FRO... service" />
-                <marker date="1661509267585" expanded="true" signature="19639:19688" ph="SELECT * FRO... SCHEDULE" />
-                <marker date="1661509267585" expanded="true" signature="19904:19923" ph="SELECT * FRO... shops" />
-                <marker date="1661509267585" expanded="true" signature="20176:20221" ph="SELECT * FRO... product" />
-                <marker date="1661509267585" expanded="true" signature="20484:20531" ph="SELECT * FRO... help_request" />
-                <marker date="1661509267585" expanded="true" signature="20484:20539" ph="SELECT * FRO... help_request" />
-                <marker date="1661509267585" expanded="true" signature="20787:20843" ph="DELETE FROM " />
-                <marker date="1661509267585" expanded="true" signature="21044:21202" ph="INSERT INTO `help_request`... " />
+                <marker date="1662798394981" expanded="true" signature="483:565" ph="SELECT * FRO... login" />
+                <marker date="1662798394981" expanded="true" signature="874:933" ph="SELECT * FRO... department" />
+                <marker date="1662798394981" expanded="true" signature="1139:1191" ph="SELECT * FRO... shops" />
+                <marker date="1662798394981" expanded="true" signature="1397:1520" ph="SELECT * FRO... staffs" />
+                <marker date="1662798394981" expanded="true" signature="2338:2438" ph="INSERT INTO `login`... " />
+                <marker date="1662798394981" expanded="true" signature="2453:2553" ph="INSERT INTO `department`... " />
+                <marker date="1662798394981" expanded="true" signature="2741:2765" ph="SELECT * FRO... department" />
+                <marker date="1662798394981" expanded="true" signature="2926:2982" ph="DELETE FROM " />
+                <marker date="1662798394981" expanded="true" signature="3001:3047" ph="DELETE FROM " />
+                <marker date="1662798394981" expanded="true" signature="3343:3426" ph="INSERT INTO buildings... " />
+                <marker date="1662798394981" expanded="true" signature="3674:3697" ph="SELECT * FRO... buildings" />
+                <marker date="1662798394981" expanded="true" signature="3868:3919" ph="DELETE FROM " />
+                <marker date="1662798394981" expanded="true" signature="4379:4476" ph="INSERT INTO login... " />
+                <marker date="1662798394981" expanded="true" signature="4498:4686" ph="INSERT INTO shops... " />
+                <marker date="1662798394981" expanded="true" signature="4818:4865" ph="SELECT * FRO... shops" />
+                <marker date="1662798394981" expanded="true" signature="5042:5087" ph="DELETE FROM " />
+                <marker date="1662798394981" expanded="true" signature="5105:5149" ph="DELETE FROM " />
+                <marker date="1662798394981" expanded="true" signature="5503:5647" ph="INSERT INTO shops... " />
+                <marker date="1662798394981" expanded="true" signature="5793:5847" ph="SELECT * FRO... shops" />
+                <marker date="1662798394981" expanded="true" signature="6037:6093" ph="DELETE FROM " />
+                <marker date="1662798394981" expanded="true" signature="6242:6434" ph="SELECT `help... passenger" />
+                <marker date="1662798394981" expanded="true" signature="6737:6815" ph="INSERT INTO service... " />
+                <marker date="1662798394981" expanded="true" signature="7059:7080" ph="SELECT * FRO... service" />
+                <marker date="1662798394981" expanded="true" signature="7248:7294" ph="DELETE FROM " />
+                <marker date="1662798394981" expanded="true" signature="7647:7780" ph="INSERT INTO SCHEDULE... " />
+                <marker date="1662798394981" expanded="true" signature="8063:8112" ph="SELECT * FRO... SCHEDULE" />
+                <marker date="1662798394981" expanded="true" signature="8271:8319" ph="DELETE FROM " />
+                <marker date="1662798394981" expanded="true" signature="8495:8563" ph="SELECT `floo... floor_places" />
+                <marker date="1662798394981" expanded="true" signature="8577:8783" ph="SELECT id,di... edges" />
+                <marker date="1662798394981" expanded="true" signature="9126:9260" ph="INSERT INTO edges... " />
+                <marker date="1662798394981" expanded="true" signature="9402:9430" ph="DELETE FROM " />
+                <marker date="1662798394981" expanded="true" signature="9402:9437" ph="DELETE FROM " />
+                <marker date="1662798394981" expanded="true" signature="10142:10247" ph="INSERT INTO `login`... " />
+                <marker date="1662798394981" expanded="true" signature="10265:10547" ph="INSERT INTO `staffs`... " />
+                <marker date="1662798394981" expanded="true" signature="10819:10878" ph="SELECT * FRO... staffs" />
+                <marker date="1662798394981" expanded="true" signature="11158:11204" ph="DELETE FROM " />
+                <marker date="1662798394981" expanded="true" signature="11223:11268" ph="DELETE FROM " />
+                <marker date="1662798394981" expanded="true" signature="11676:11859" ph="UPDATE `staf... " />
+                <marker date="1662798394981" expanded="true" signature="12004:12052" ph="SELECT * FRO... staffs" />
+                <marker date="1662798394981" expanded="true" signature="12380:12546" ph="INSERT INTO `works`... " />
+                <marker date="1662798394981" expanded="true" signature="12638:12704" ph="SELECT * FRO... staffs" />
+                <marker date="1662798394981" expanded="true" signature="12849:12924" ph="SELECT * FRO... staffs" />
+                <marker date="1662798394981" expanded="true" signature="13086:13136" ph="DELETE FROM " />
+                <marker date="1662798394981" expanded="true" signature="13294:13455" ph="SELECT `comp... passenger" />
+                <marker date="1662798394981" expanded="true" signature="13820:13887" ph="UPDATE compl... " />
+                <marker date="1662798394981" expanded="true" signature="14203:14277" ph="UPDATE `comp... " />
+                <marker date="1662798394981" expanded="true" signature="14409:14579" ph="SELECT `help... passenger" />
+                <marker date="1662798394981" expanded="true" signature="14972:15075" ph="UPDATE `help... " />
+                <marker date="1662798394981" expanded="true" signature="15215:15366" ph="SELECT * FRO... staffs" />
+                <marker date="1662798394981" expanded="true" signature="15303:15365" ph="SELECT staff... help_request" />
+                <marker date="1662798394981" expanded="true" signature="15714:15828" ph="SELECT * FRO... shops" />
+                <marker date="1662798394981" expanded="true" signature="16355:16508" ph="INSERT INTO product... " />
+                <marker date="1662798394981" expanded="true" signature="16749:16810" ph="SELECT * FRO... product" />
+                <marker date="1662798394981" expanded="true" signature="16975:17021" ph="delete from " />
+                <marker date="1662798394981" expanded="true" signature="17368:17508" ph="SELECT * FRO... staffs" />
+                <marker date="1662798394981" expanded="true" signature="17679:17739" ph="SELECT * FRO... works" />
+                <marker date="1662798394981" expanded="true" signature="18024:18133" ph="INSERT INTO `work_status`... " />
+                <marker date="1662798394981" expanded="true" signature="18405:18464" ph="update works... " />
+                <marker date="1662798394981" expanded="true" signature="18621:18704" ph="SELECT * FRO... works" />
+                <marker date="1662798394981" expanded="true" signature="18878:18927" ph="SELECT * FRO... work_status" />
+                <marker date="1662798394981" expanded="true" signature="19111:19366" ph="SELECT `help... passenger" />
+                <marker date="1662798394981" expanded="true" signature="19554:19628" ph="update help_... " />
+                <marker date="1662798394981" expanded="true" signature="20087:20174" ph="INSERT INTO login... " />
+                <marker date="1662798394981" expanded="true" signature="20192:20328" ph="INSERT INTO passenger... " />
+                <marker date="1662798394981" expanded="true" signature="20533:20615" ph="SELECT * FRO... login" />
+                <marker date="1662798394981" expanded="true" signature="21008:21060" ph="SELECT * FRO... passenger" />
+                <marker date="1662798394981" expanded="true" signature="21391:21412" ph="SELECT * FRO... service" />
+                <marker date="1662798394981" expanded="true" signature="21664:21713" ph="SELECT * FRO... SCHEDULE" />
+                <marker date="1662798394981" expanded="true" signature="21664:21733" ph="SELECT * FRO... SCHEDULE" />
+                <marker date="1662798394981" expanded="true" signature="21949:22056" ph="SELECT * FRO... shops" />
+                <marker date="1662798394981" expanded="true" signature="22309:22354" ph="SELECT * FRO... product" />
+                <marker date="1662798394981" expanded="true" signature="22617:22730" ph="SELECT * FRO... help_request" />
+                <marker date="1662798394981" expanded="true" signature="22978:23034" ph="DELETE FROM " />
+                <marker date="1662798394981" expanded="true" signature="23235:23393" ph="INSERT INTO `help_request`... " />
+                <marker date="1662798394981" expanded="true" signature="23559:23612" ph="SELECT * FRO... help_request" />
+                <marker date="1662798394981" expanded="true" signature="23864:23915" ph="DELETE FROM " />
+                <marker date="1662798394981" expanded="true" signature="24124:24260" ph="INSERT INTO `help_request`... " />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DBConnection.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DBConnection.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="requirements.txt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/requirements.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="27" lean-forward="true" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="staff_home.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/staff/staff_home.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="33" lean-forward="false" selection-start-line="0" selection-start-column="33" selection-end-line="0" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="staff_temp.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/staff/staff_temp.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1394">
-              <caret line="82" column="62" lean-forward="false" selection-start-line="82" selection-start-column="62" selection-end-line="82" selection-end-column="62" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="view_allocated_request.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/staff/view_allocated_request.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="8" lean-forward="false" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="view_allocated_work.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/staff/view_allocated_work.html">
+      <file leaf-file-name="admin_temp.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/admin/admin_temp.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="493">
-              <caret line="29" column="16" lean-forward="false" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
+              <caret line="101" column="58" lean-forward="false" selection-start-line="101" selection-start-column="58" selection-end-line="101" selection-end-column="58" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="view_product.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/shop/view_product.html">
+      <file leaf-file-name="building_view.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/admin/building_view.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="32" lean-forward="false" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+            <state relative-caret-position="340">
+              <caret line="20" column="81" lean-forward="false" selection-start-line="20" selection-start-column="81" selection-end-line="20" selection-end-column="81" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="20220824_133910.jpg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/product/20220824_133910.jpg">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="add_product.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/shop/add_product.html">
+      <file leaf-file-name="edges_add.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/admin/edges_add.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="31" lean-forward="false" selection-start-line="0" selection-start-column="31" selection-end-line="0" selection-end-column="31" />
+            <state relative-caret-position="238">
+              <caret line="72" column="46" lean-forward="false" selection-start-line="72" selection-start-column="35" selection-end-line="72" selection-end-column="46" />
               <folding />
             </state>
           </provider>
@@ -238,13 +167,15 @@
       <replace>/</replace>
     </replaceStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/templates/login.html" />
         <option value="$PROJECT_DIR$/templates/admin/dept_add.html" />
         <option value="$PROJECT_DIR$/templates/admin/dept_view.html" />
-        <option value="$PROJECT_DIR$/templates/admin/building_view.html" />
         <option value="$PROJECT_DIR$/templates/admin/building_add.html" />
         <option value="$PROJECT_DIR$/templates/admin/shop_add.html" />
         <option value="$PROJECT_DIR$/templates/admin/service_add.html" />
@@ -252,7 +183,6 @@
         <option value="$PROJECT_DIR$/templates/admin/schedule_view.html" />
         <option value="$PROJECT_DIR$/templates/admin/service_view.html" />
         <option value="$PROJECT_DIR$/templates/department/dept_home.html" />
-        <option value="$PROJECT_DIR$/templates/admin/admin_temp.html" />
         <option value="$PROJECT_DIR$/templates/department/staff_add.html" />
         <option value="$PROJECT_DIR$/templates/department/staff_edit.html" />
         <option value="$PROJECT_DIR$/templates/department/assign_work_view.html" />
@@ -277,9 +207,15 @@
         <option value="$PROJECT_DIR$/templates/staff/view_work_reports.html" />
         <option value="$PROJECT_DIR$/templates/staff/staff_temp.html" />
         <option value="$PROJECT_DIR$/templates/staff/view_allocated_request.html" />
-        <option value="$PROJECT_DIR$/indoor_aiport.py" />
         <option value="$PROJECT_DIR$/DBConnection.py" />
+        <option value="$PROJECT_DIR$/vercel.json" />
         <option value="$PROJECT_DIR$/requirements.txt" />
+        <option value="$PROJECT_DIR$/templates/admin/admin_temp.html" />
+        <option value="$PROJECT_DIR$/templates/admin/edges_view.html" />
+        <option value="$PROJECT_DIR$/templates/admin/building_view.html" />
+        <option value="$PROJECT_DIR$/templates/admin/floor_place_add.html" />
+        <option value="$PROJECT_DIR$/templates/admin/edges_add.html" />
+        <option value="$PROJECT_DIR$/indoor_aiport.py" />
       </list>
     </option>
   </component>
@@ -311,6 +247,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -338,21 +275,39 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="indoor_aiport" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="indoor_aiport" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\riss kannur\2022-2023 workspace\jamia\indoor_aiport\templates\admin" />
       <recent name="E:\riss kannur\2022-2023 workspace\jamia\indoor_aiport\templates\staff" />
       <recent name="E:\riss kannur\2022-2023 workspace\jamia\indoor_aiport\templates\shop" />
       <recent name="E:\riss kannur\2022-2023 workspace\jamia\indoor_aiport\templates\department" />
-      <recent name="E:\riss kannur\2022-2023 workspace\jamia\indoor_aiport\templates\admin" />
       <recent name="E:\riss kannur\2022-2023 workspace\jamia\indoor_aiport\static" />
     </key>
   </component>
@@ -563,9 +518,9 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -597,150 +552,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/indoor_aiport.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5389">
-          <caret line="320" column="96" lean-forward="false" selection-start-line="320" selection-start-column="96" selection-end-line="320" selection-end-column="96" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-            <marker date="1661509267585" expanded="true" signature="483:565" ph="SELECT * FRO... login" />
-            <marker date="1661509267585" expanded="true" signature="874:920" ph="SELECT * FRO... department" />
-            <marker date="1661509267585" expanded="true" signature="874:933" ph="SELECT * FRO... department" />
-            <marker date="1661509267585" expanded="true" signature="1139:1191" ph="SELECT * FRO... department" />
-            <marker date="1661509267585" expanded="true" signature="1397:1507" ph="SELECT * FRO... staffs" />
-            <marker date="1661509267585" expanded="true" signature="1397:1520" ph="SELECT * FRO... staffs" />
-            <marker date="1661509267585" expanded="true" signature="2338:2412" ph="INSERT INTO `login`... " />
-            <marker date="1661509267585" expanded="true" signature="2338:2438" ph="INSERT INTO `login`... " />
-            <marker date="1661509267585" expanded="true" signature="2453:2514" ph="INSERT INTO `department`... " />
-            <marker date="1661509267585" expanded="true" signature="2453:2527" ph="INSERT INTO `department`... " />
-            <marker date="1661509267585" expanded="true" signature="2453:2553" ph="INSERT INTO `department`... " />
-            <marker date="1661509267585" expanded="true" signature="2741:2765" ph="SELECT * FRO... department" />
-            <marker date="1661509267585" expanded="true" signature="2926:2982" ph="DELETE FROM " />
-            <marker date="1661509267585" expanded="true" signature="3001:3047" ph="DELETE FROM " />
-            <marker date="1661509267585" expanded="true" signature="3343:3402" ph="INSERT INTO buildings... " />
-            <marker date="1661509267585" expanded="true" signature="3343:3414" ph="INSERT INTO buildings... " />
-            <marker date="1661509267585" expanded="true" signature="3343:3426" ph="INSERT INTO buildings... " />
-            <marker date="1661509267585" expanded="true" signature="3674:3697" ph="SELECT * FRO... buildings" />
-            <marker date="1661509267585" expanded="true" signature="3868:3911" ph="DELETE FROM " />
-            <marker date="1661509267585" expanded="true" signature="3868:3919" ph="DELETE FROM " />
-            <marker date="1661509267585" expanded="true" signature="4379:4436" ph="INSERT INTO login... " />
-            <marker date="1661509267585" expanded="true" signature="4379:4476" ph="INSERT INTO login... " />
-            <marker date="1661509267585" expanded="true" signature="4498:4677" ph="INSERT INTO shops... " />
-            <marker date="1661509267585" expanded="true" signature="4498:4686" ph="INSERT INTO shops... " />
-            <marker date="1661509267585" expanded="true" signature="4818:4857" ph="SELECT * FRO... shops" />
-            <marker date="1661509267585" expanded="true" signature="4818:4865" ph="SELECT * FRO... shops" />
-            <marker date="1661509267585" expanded="true" signature="5042:5076" ph="DELETE FROM " />
-            <marker date="1661509267585" expanded="true" signature="5042:5087" ph="DELETE FROM " />
-            <marker date="1661509267585" expanded="true" signature="5105:5149" ph="DELETE FROM " />
-            <marker date="1661509267585" expanded="true" signature="5291:5441" ph="SELECT `help... passenger" />
-            <marker date="1661509267585" expanded="true" signature="5291:5483" ph="SELECT `help... passenger" />
-            <marker date="1661509267585" expanded="true" signature="5786:5841" ph="INSERT INTO service... " />
-            <marker date="1661509267585" expanded="true" signature="5786:5864" ph="INSERT INTO service... " />
-            <marker date="1661509267585" expanded="true" signature="6108:6129" ph="SELECT * FRO... service" />
-            <marker date="1661509267585" expanded="true" signature="6297:6335" ph="DELETE FROM " />
-            <marker date="1661509267585" expanded="true" signature="6297:6343" ph="DELETE FROM " />
-            <marker date="1661509267585" expanded="true" signature="6696:6819" ph="INSERT INTO SCHEDULE... " />
-            <marker date="1661509267585" expanded="true" signature="6696:6829" ph="INSERT INTO SCHEDULE... " />
-            <marker date="1661509267585" expanded="true" signature="7112:7153" ph="SELECT * FRO... SCHEDULE" />
-            <marker date="1661509267585" expanded="true" signature="7112:7161" ph="SELECT * FRO... SCHEDULE" />
-            <marker date="1661509267585" expanded="true" signature="7320:7368" ph="DELETE FROM " />
-            <marker date="1661509267585" expanded="true" signature="7320:7370" ph="DELETE FROM " />
-            <marker date="1661509267585" expanded="true" signature="8117:8195" ph="INSERT INTO `login`... " />
-            <marker date="1661509267585" expanded="true" signature="8117:8222" ph="INSERT INTO `login`... " />
-            <marker date="1661509267585" expanded="true" signature="8240:8522" ph="INSERT INTO `staffs`... " />
-            <marker date="1661509267585" expanded="true" signature="8794:8853" ph="SELECT * FRO... staffs" />
-            <marker date="1661509267585" expanded="true" signature="9133:9179" ph="DELETE FROM " />
-            <marker date="1661509267585" expanded="true" signature="9198:9243" ph="DELETE FROM " />
-            <marker date="1661509267585" expanded="true" signature="9651:9834" ph="UPDATE `staf... " />
-            <marker date="1661509267585" expanded="true" signature="9979:10027" ph="SELECT * FRO... staffs" />
-            <marker date="1661509267585" expanded="true" signature="10355:10521" ph="INSERT INTO `works`... " />
-            <marker date="1661509267585" expanded="true" signature="10613:10655" ph="SELECT * FRO... staffs" />
-            <marker date="1661509267585" expanded="true" signature="10613:10679" ph="SELECT * FRO... staffs" />
-            <marker date="1661509267585" expanded="true" signature="10824:10899" ph="SELECT `work... staffs" />
-            <marker date="1661509267585" expanded="true" signature="11061:11111" ph="DELETE FROM " />
-            <marker date="1661509267585" expanded="true" signature="11269:11430" ph="SELECT `comp... passenger" />
-            <marker date="1661509267585" expanded="true" signature="11795:11855" ph="UPDATE compl... " />
-            <marker date="1661509267585" expanded="true" signature="11795:11862" ph="UPDATE compl... " />
-            <marker date="1661509267585" expanded="true" signature="12178:12252" ph="UPDATE `comp... " />
-            <marker date="1661509267585" expanded="true" signature="12384:12554" ph="SELECT `help... passenger" />
-            <marker date="1661509267585" expanded="true" signature="12947:13050" ph="UPDATE `help... " />
-            <marker date="1661509267585" expanded="true" signature="13190:13341" ph="SELECT * FRO... staffs" />
-            <marker date="1661509267585" expanded="true" signature="13278:13340" ph="SELECT staff... help_request" />
-            <marker date="1661509267585" expanded="true" signature="13689:13803" ph="SELECT * FRO... shops" />
-            <marker date="1661509267585" expanded="true" signature="14330:14435" ph="INSERT INTO product... " />
-            <marker date="1661509267585" expanded="true" signature="14330:14447" ph="INSERT INTO product... " />
-            <marker date="1661509267585" expanded="true" signature="14330:14458" ph="INSERT INTO product... " />
-            <marker date="1661509267585" expanded="true" signature="14330:14483" ph="INSERT INTO product... " />
-            <marker date="1661509267585" expanded="true" signature="14724:14761" ph="SELECT * FRO... product" />
-            <marker date="1661509267585" expanded="true" signature="14724:14785" ph="SELECT * FRO... product" />
-            <marker date="1661509267585" expanded="true" signature="14950:14996" ph="delete from " />
-            <marker date="1661509267585" expanded="true" signature="15343:15483" ph="SELECT * FRO... staffs" />
-            <marker date="1661509267585" expanded="true" signature="15654:15714" ph="SELECT * FRO... works" />
-            <marker date="1661509267585" expanded="true" signature="15999:16098" ph="INSERT INTO `work_status`... " />
-            <marker date="1661509267585" expanded="true" signature="15999:16108" ph="INSERT INTO `work_status`... " />
-            <marker date="1661509267585" expanded="true" signature="16380:16439" ph="update work " />
-            <marker date="1661509267585" expanded="true" signature="16380:16441" ph="update work " />
-            <marker date="1661509267585" expanded="true" signature="16596:16679" ph="SELECT * FRO... works" />
-            <marker date="1661509267585" expanded="true" signature="16853:16902" ph="SELECT * FRO... work_status" />
-            <marker date="1661509267585" expanded="true" signature="17086:17281" ph="SELECT `help... passenger" />
-            <marker date="1661509267585" expanded="true" signature="17086:17341" ph="SELECT `help... passenger" />
-            <marker date="1661509267585" expanded="true" signature="17529:17571" ph="update help_... " />
-            <marker date="1661509267585" expanded="true" signature="17529:17593" ph="update help_... " />
-            <marker date="1661509267585" expanded="true" signature="17529:17595" ph="update help_... " />
-            <marker date="1661509267585" expanded="true" signature="17529:17603" ph="update help_... " />
-            <marker date="1661509267585" expanded="true" signature="18062:18132" ph="INSERT INTO login... " />
-            <marker date="1661509267585" expanded="true" signature="18062:18149" ph="INSERT INTO login... " />
-            <marker date="1661509267585" expanded="true" signature="18167:18303" ph="INSERT INTO passenger... " />
-            <marker date="1661509267585" expanded="true" signature="18508:18590" ph="SELECT * FRO... login" />
-            <marker date="1661509267585" expanded="true" signature="18983:19027" ph="SELECT * FRO... passenger" />
-            <marker date="1661509267585" expanded="true" signature="18983:19035" ph="SELECT * FRO... passenger" />
-            <marker date="1661509267585" expanded="true" signature="19366:19387" ph="SELECT * FRO... service" />
-            <marker date="1661509267585" expanded="true" signature="19639:19688" ph="SELECT * FRO... SCHEDULE" />
-            <marker date="1661509267585" expanded="true" signature="19904:19923" ph="SELECT * FRO... shops" />
-            <marker date="1661509267585" expanded="true" signature="20176:20221" ph="SELECT * FRO... product" />
-            <marker date="1661509267585" expanded="true" signature="20484:20531" ph="SELECT * FRO... help_request" />
-            <marker date="1661509267585" expanded="true" signature="20484:20539" ph="SELECT * FRO... help_request" />
-            <marker date="1661509267585" expanded="true" signature="20787:20843" ph="DELETE FROM " />
-            <marker date="1661509267585" expanded="true" signature="21044:21202" ph="INSERT INTO `help_request`... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/department/assign_work_view.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="28" lean-forward="false" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/department/staff_view.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="7" lean-forward="true" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/department/dept_temp.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1751">
-          <caret line="103" column="80" lean-forward="false" selection-start-line="103" selection-start-column="80" selection-end-line="103" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/department/assign_work.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/department/staff_add.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="2" lean-forward="false" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/department/dept_home.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -797,34 +608,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/admin/building_view.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="37" lean-forward="true" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/admin/shop_add.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="56" column="8" lean-forward="false" selection-start-line="56" selection-start-column="8" selection-end-line="56" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/admin/service_add.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="73" lean-forward="false" selection-start-line="3" selection-start-column="73" selection-end-line="3" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/admin/building_add.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="2" lean-forward="false" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/admin/schedule_view.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="269">
@@ -843,13 +626,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="37" lean-forward="false" selection-start-line="0" selection-start-column="37" selection-end-line="0" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/admin/admin_temp.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2176">
-          <caret line="128" column="41" lean-forward="false" selection-start-line="128" selection-start-column="41" selection-end-line="128" selection-end-column="41" />
         </state>
       </provider>
     </entry>
@@ -955,20 +731,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="31" lean-forward="false" selection-start-line="0" selection-start-column="31" selection-end-line="0" selection-end-column="31" />
-          <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/product/20220824_133910.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/shop/view_product.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="19" column="32" lean-forward="false" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -976,7 +745,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="33" lean-forward="false" selection-start-line="0" selection-start-column="33" selection-end-line="0" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -998,7 +766,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
           <caret line="29" column="16" lean-forward="false" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1027,7 +794,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1394">
           <caret line="82" column="62" lean-forward="false" selection-start-line="82" selection-start-column="62" selection-end-line="82" selection-end-column="62" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1035,7 +801,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="21" column="8" lean-forward="false" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1047,120 +812,184 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/indoor_aiport.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="11" column="40" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="549" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-            <marker date="1661509267585" expanded="true" signature="483:565" ph="SELECT * FRO... login" />
-            <marker date="1661509267585" expanded="true" signature="874:920" ph="SELECT * FRO... department" />
-            <marker date="1661509267585" expanded="true" signature="874:933" ph="SELECT * FRO... department" />
-            <marker date="1661509267585" expanded="true" signature="1139:1191" ph="SELECT * FRO... department" />
-            <marker date="1661509267585" expanded="true" signature="1397:1507" ph="SELECT * FRO... staffs" />
-            <marker date="1661509267585" expanded="true" signature="1397:1520" ph="SELECT * FRO... staffs" />
-            <marker date="1661509267585" expanded="true" signature="2338:2412" ph="INSERT INTO `login`... " />
-            <marker date="1661509267585" expanded="true" signature="2338:2438" ph="INSERT INTO `login`... " />
-            <marker date="1661509267585" expanded="true" signature="2453:2514" ph="INSERT INTO `department`... " />
-            <marker date="1661509267585" expanded="true" signature="2453:2527" ph="INSERT INTO `department`... " />
-            <marker date="1661509267585" expanded="true" signature="2453:2553" ph="INSERT INTO `department`... " />
-            <marker date="1661509267585" expanded="true" signature="2741:2765" ph="SELECT * FRO... department" />
-            <marker date="1661509267585" expanded="true" signature="2926:2982" ph="DELETE FROM " />
-            <marker date="1661509267585" expanded="true" signature="3001:3047" ph="DELETE FROM " />
-            <marker date="1661509267585" expanded="true" signature="3343:3402" ph="INSERT INTO buildings... " />
-            <marker date="1661509267585" expanded="true" signature="3343:3414" ph="INSERT INTO buildings... " />
-            <marker date="1661509267585" expanded="true" signature="3343:3426" ph="INSERT INTO buildings... " />
-            <marker date="1661509267585" expanded="true" signature="3674:3697" ph="SELECT * FRO... buildings" />
-            <marker date="1661509267585" expanded="true" signature="3868:3911" ph="DELETE FROM " />
-            <marker date="1661509267585" expanded="true" signature="3868:3919" ph="DELETE FROM " />
-            <marker date="1661509267585" expanded="true" signature="4379:4436" ph="INSERT INTO login... " />
-            <marker date="1661509267585" expanded="true" signature="4379:4476" ph="INSERT INTO login... " />
-            <marker date="1661509267585" expanded="true" signature="4498:4677" ph="INSERT INTO shops... " />
-            <marker date="1661509267585" expanded="true" signature="4498:4686" ph="INSERT INTO shops... " />
-            <marker date="1661509267585" expanded="true" signature="4818:4857" ph="SELECT * FRO... shops" />
-            <marker date="1661509267585" expanded="true" signature="4818:4865" ph="SELECT * FRO... shops" />
-            <marker date="1661509267585" expanded="true" signature="5042:5076" ph="DELETE FROM " />
-            <marker date="1661509267585" expanded="true" signature="5042:5087" ph="DELETE FROM " />
-            <marker date="1661509267585" expanded="true" signature="5105:5149" ph="DELETE FROM " />
-            <marker date="1661509267585" expanded="true" signature="5291:5441" ph="SELECT `help... passenger" />
-            <marker date="1661509267585" expanded="true" signature="5291:5483" ph="SELECT `help... passenger" />
-            <marker date="1661509267585" expanded="true" signature="5786:5841" ph="INSERT INTO service... " />
-            <marker date="1661509267585" expanded="true" signature="5786:5864" ph="INSERT INTO service... " />
-            <marker date="1661509267585" expanded="true" signature="6108:6129" ph="SELECT * FRO... service" />
-            <marker date="1661509267585" expanded="true" signature="6297:6335" ph="DELETE FROM " />
-            <marker date="1661509267585" expanded="true" signature="6297:6343" ph="DELETE FROM " />
-            <marker date="1661509267585" expanded="true" signature="6696:6819" ph="INSERT INTO SCHEDULE... " />
-            <marker date="1661509267585" expanded="true" signature="6696:6829" ph="INSERT INTO SCHEDULE... " />
-            <marker date="1661509267585" expanded="true" signature="7112:7153" ph="SELECT * FRO... SCHEDULE" />
-            <marker date="1661509267585" expanded="true" signature="7112:7161" ph="SELECT * FRO... SCHEDULE" />
-            <marker date="1661509267585" expanded="true" signature="7320:7368" ph="DELETE FROM " />
-            <marker date="1661509267585" expanded="true" signature="7320:7370" ph="DELETE FROM " />
-            <marker date="1661509267585" expanded="true" signature="8117:8195" ph="INSERT INTO `login`... " />
-            <marker date="1661509267585" expanded="true" signature="8117:8222" ph="INSERT INTO `login`... " />
-            <marker date="1661509267585" expanded="true" signature="8240:8522" ph="INSERT INTO `staffs`... " />
-            <marker date="1661509267585" expanded="true" signature="8794:8853" ph="SELECT * FRO... staffs" />
-            <marker date="1661509267585" expanded="true" signature="9133:9179" ph="DELETE FROM " />
-            <marker date="1661509267585" expanded="true" signature="9198:9243" ph="DELETE FROM " />
-            <marker date="1661509267585" expanded="true" signature="9651:9834" ph="UPDATE `staf... " />
-            <marker date="1661509267585" expanded="true" signature="9979:10027" ph="SELECT * FRO... staffs" />
-            <marker date="1661509267585" expanded="true" signature="10355:10521" ph="INSERT INTO `works`... " />
-            <marker date="1661509267585" expanded="true" signature="10613:10655" ph="SELECT * FRO... staffs" />
-            <marker date="1661509267585" expanded="true" signature="10613:10679" ph="SELECT * FRO... staffs" />
-            <marker date="1661509267585" expanded="true" signature="10824:10899" ph="SELECT `work... staffs" />
-            <marker date="1661509267585" expanded="true" signature="11061:11111" ph="DELETE FROM " />
-            <marker date="1661509267585" expanded="true" signature="11269:11430" ph="SELECT `comp... passenger" />
-            <marker date="1661509267585" expanded="true" signature="11795:11855" ph="UPDATE compl... " />
-            <marker date="1661509267585" expanded="true" signature="11795:11862" ph="UPDATE compl... " />
-            <marker date="1661509267585" expanded="true" signature="12178:12252" ph="UPDATE `comp... " />
-            <marker date="1661509267585" expanded="true" signature="12384:12554" ph="SELECT `help... passenger" />
-            <marker date="1661509267585" expanded="true" signature="12947:13050" ph="UPDATE `help... " />
-            <marker date="1661509267585" expanded="true" signature="13190:13341" ph="SELECT * FRO... staffs" />
-            <marker date="1661509267585" expanded="true" signature="13278:13340" ph="SELECT staff... help_request" />
-            <marker date="1661509267585" expanded="true" signature="13689:13803" ph="SELECT * FRO... shops" />
-            <marker date="1661509267585" expanded="true" signature="14330:14435" ph="INSERT INTO product... " />
-            <marker date="1661509267585" expanded="true" signature="14330:14447" ph="INSERT INTO product... " />
-            <marker date="1661509267585" expanded="true" signature="14330:14458" ph="INSERT INTO product... " />
-            <marker date="1661509267585" expanded="true" signature="14330:14483" ph="INSERT INTO product... " />
-            <marker date="1661509267585" expanded="true" signature="14724:14761" ph="SELECT * FRO... product" />
-            <marker date="1661509267585" expanded="true" signature="14724:14785" ph="SELECT * FRO... product" />
-            <marker date="1661509267585" expanded="true" signature="14950:14996" ph="delete from " />
-            <marker date="1661509267585" expanded="true" signature="15343:15483" ph="SELECT * FRO... staffs" />
-            <marker date="1661509267585" expanded="true" signature="15654:15714" ph="SELECT * FRO... works" />
-            <marker date="1661509267585" expanded="true" signature="15999:16098" ph="INSERT INTO `work_status`... " />
-            <marker date="1661509267585" expanded="true" signature="15999:16108" ph="INSERT INTO `work_status`... " />
-            <marker date="1661509267585" expanded="true" signature="16380:16439" ph="update work " />
-            <marker date="1661509267585" expanded="true" signature="16380:16441" ph="update work " />
-            <marker date="1661509267585" expanded="true" signature="16596:16679" ph="SELECT * FRO... works" />
-            <marker date="1661509267585" expanded="true" signature="16853:16902" ph="SELECT * FRO... work_status" />
-            <marker date="1661509267585" expanded="true" signature="17086:17281" ph="SELECT `help... passenger" />
-            <marker date="1661509267585" expanded="true" signature="17086:17341" ph="SELECT `help... passenger" />
-            <marker date="1661509267585" expanded="true" signature="17529:17571" ph="update help_... " />
-            <marker date="1661509267585" expanded="true" signature="17529:17593" ph="update help_... " />
-            <marker date="1661509267585" expanded="true" signature="17529:17595" ph="update help_... " />
-            <marker date="1661509267585" expanded="true" signature="17529:17603" ph="update help_... " />
-            <marker date="1661509267585" expanded="true" signature="18062:18132" ph="INSERT INTO login... " />
-            <marker date="1661509267585" expanded="true" signature="18062:18149" ph="INSERT INTO login... " />
-            <marker date="1661509267585" expanded="true" signature="18167:18303" ph="INSERT INTO passenger... " />
-            <marker date="1661509267585" expanded="true" signature="18508:18590" ph="SELECT * FRO... login" />
-            <marker date="1661509267585" expanded="true" signature="18983:19027" ph="SELECT * FRO... passenger" />
-            <marker date="1661509267585" expanded="true" signature="18983:19035" ph="SELECT * FRO... passenger" />
-            <marker date="1661509267585" expanded="true" signature="19366:19387" ph="SELECT * FRO... service" />
-            <marker date="1661509267585" expanded="true" signature="19639:19688" ph="SELECT * FRO... SCHEDULE" />
-            <marker date="1661509267585" expanded="true" signature="19904:19923" ph="SELECT * FRO... shops" />
-            <marker date="1661509267585" expanded="true" signature="20176:20221" ph="SELECT * FRO... product" />
-            <marker date="1661509267585" expanded="true" signature="20484:20531" ph="SELECT * FRO... help_request" />
-            <marker date="1661509267585" expanded="true" signature="20484:20539" ph="SELECT * FRO... help_request" />
-            <marker date="1661509267585" expanded="true" signature="20787:20843" ph="DELETE FROM " />
-            <marker date="1661509267585" expanded="true" signature="21044:21202" ph="INSERT INTO `help_request`... " />
-          </folding>
-        </state>
+    <entry file="file://$PROJECT_DIR$/static/product/20220824_133910.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/product/20220824_134636.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/product/20220824_134811.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="27" lean-forward="true" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+        <state relative-caret-position="34">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vercel.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="7" lean-forward="false" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/admin/building_add.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="2" lean-forward="false" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="74" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/admin/admin_temp.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="101" column="58" lean-forward="false" selection-start-line="101" selection-start-column="58" selection-end-line="101" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/admin/shop_add.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="56" column="8" lean-forward="false" selection-start-line="56" selection-start-column="8" selection-end-line="56" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/admin/service_add.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="73" lean-forward="false" selection-start-line="3" selection-start-column="73" selection-end-line="3" selection-end-column="73" />
+          <folding>
+            <element signature="n#style#0;n#table#0;n#form#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/admin/edges_view.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="18" lean-forward="true" selection-start-line="4" selection-start-column="2" selection-end-line="15" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/admin/floor_place_add.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/admin/building_view.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="81" lean-forward="false" selection-start-line="20" selection-start-column="81" selection-end-line="20" selection-end-column="81" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/admin/edges_add.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="72" column="46" lean-forward="false" selection-start-line="72" selection-start-column="35" selection-end-line="72" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/indoor_aiport.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="232" column="0" lean-forward="true" selection-start-line="232" selection-start-column="0" selection-end-line="232" selection-end-column="0" />
+          <folding>
+            <marker date="1662798394981" expanded="true" signature="483:565" ph="SELECT * FRO... login" />
+            <marker date="1662798394981" expanded="true" signature="874:933" ph="SELECT * FRO... department" />
+            <marker date="1662798394981" expanded="true" signature="1139:1191" ph="SELECT * FRO... shops" />
+            <marker date="1662798394981" expanded="true" signature="1397:1520" ph="SELECT * FRO... staffs" />
+            <marker date="1662798394981" expanded="true" signature="2338:2438" ph="INSERT INTO `login`... " />
+            <marker date="1662798394981" expanded="true" signature="2453:2553" ph="INSERT INTO `department`... " />
+            <marker date="1662798394981" expanded="true" signature="2741:2765" ph="SELECT * FRO... department" />
+            <marker date="1662798394981" expanded="true" signature="2926:2982" ph="DELETE FROM " />
+            <marker date="1662798394981" expanded="true" signature="3001:3047" ph="DELETE FROM " />
+            <marker date="1662798394981" expanded="true" signature="3343:3426" ph="INSERT INTO buildings... " />
+            <marker date="1662798394981" expanded="true" signature="3674:3697" ph="SELECT * FRO... buildings" />
+            <marker date="1662798394981" expanded="true" signature="3868:3919" ph="DELETE FROM " />
+            <marker date="1662798394981" expanded="true" signature="4379:4476" ph="INSERT INTO login... " />
+            <marker date="1662798394981" expanded="true" signature="4498:4686" ph="INSERT INTO shops... " />
+            <marker date="1662798394981" expanded="true" signature="4818:4865" ph="SELECT * FRO... shops" />
+            <marker date="1662798394981" expanded="true" signature="5042:5087" ph="DELETE FROM " />
+            <marker date="1662798394981" expanded="true" signature="5105:5149" ph="DELETE FROM " />
+            <marker date="1662798394981" expanded="true" signature="5503:5647" ph="INSERT INTO shops... " />
+            <marker date="1662798394981" expanded="true" signature="5793:5847" ph="SELECT * FRO... shops" />
+            <marker date="1662798394981" expanded="true" signature="6037:6093" ph="DELETE FROM " />
+            <marker date="1662798394981" expanded="true" signature="6242:6434" ph="SELECT `help... passenger" />
+            <marker date="1662798394981" expanded="true" signature="6737:6815" ph="INSERT INTO service... " />
+            <marker date="1662798394981" expanded="true" signature="7059:7080" ph="SELECT * FRO... service" />
+            <marker date="1662798394981" expanded="true" signature="7248:7294" ph="DELETE FROM " />
+            <marker date="1662798394981" expanded="true" signature="7647:7780" ph="INSERT INTO SCHEDULE... " />
+            <marker date="1662798394981" expanded="true" signature="8063:8112" ph="SELECT * FRO... SCHEDULE" />
+            <marker date="1662798394981" expanded="true" signature="8271:8319" ph="DELETE FROM " />
+            <marker date="1662798394981" expanded="true" signature="8495:8563" ph="SELECT `floo... floor_places" />
+            <marker date="1662798394981" expanded="true" signature="8577:8783" ph="SELECT id,di... edges" />
+            <marker date="1662798394981" expanded="true" signature="9126:9260" ph="INSERT INTO edges... " />
+            <marker date="1662798394981" expanded="true" signature="9402:9430" ph="DELETE FROM " />
+            <marker date="1662798394981" expanded="true" signature="9402:9437" ph="DELETE FROM " />
+            <marker date="1662798394981" expanded="true" signature="10142:10247" ph="INSERT INTO `login`... " />
+            <marker date="1662798394981" expanded="true" signature="10265:10547" ph="INSERT INTO `staffs`... " />
+            <marker date="1662798394981" expanded="true" signature="10819:10878" ph="SELECT * FRO... staffs" />
+            <marker date="1662798394981" expanded="true" signature="11158:11204" ph="DELETE FROM " />
+            <marker date="1662798394981" expanded="true" signature="11223:11268" ph="DELETE FROM " />
+            <marker date="1662798394981" expanded="true" signature="11676:11859" ph="UPDATE `staf... " />
+            <marker date="1662798394981" expanded="true" signature="12004:12052" ph="SELECT * FRO... staffs" />
+            <marker date="1662798394981" expanded="true" signature="12380:12546" ph="INSERT INTO `works`... " />
+            <marker date="1662798394981" expanded="true" signature="12638:12704" ph="SELECT * FRO... staffs" />
+            <marker date="1662798394981" expanded="true" signature="12849:12924" ph="SELECT * FRO... staffs" />
+            <marker date="1662798394981" expanded="true" signature="13086:13136" ph="DELETE FROM " />
+            <marker date="1662798394981" expanded="true" signature="13294:13455" ph="SELECT `comp... passenger" />
+            <marker date="1662798394981" expanded="true" signature="13820:13887" ph="UPDATE compl... " />
+            <marker date="1662798394981" expanded="true" signature="14203:14277" ph="UPDATE `comp... " />
+            <marker date="1662798394981" expanded="true" signature="14409:14579" ph="SELECT `help... passenger" />
+            <marker date="1662798394981" expanded="true" signature="14972:15075" ph="UPDATE `help... " />
+            <marker date="1662798394981" expanded="true" signature="15215:15366" ph="SELECT * FRO... staffs" />
+            <marker date="1662798394981" expanded="true" signature="15303:15365" ph="SELECT staff... help_request" />
+            <marker date="1662798394981" expanded="true" signature="15714:15828" ph="SELECT * FRO... shops" />
+            <marker date="1662798394981" expanded="true" signature="16355:16508" ph="INSERT INTO product... " />
+            <marker date="1662798394981" expanded="true" signature="16749:16810" ph="SELECT * FRO... product" />
+            <marker date="1662798394981" expanded="true" signature="16975:17021" ph="delete from " />
+            <marker date="1662798394981" expanded="true" signature="17368:17508" ph="SELECT * FRO... staffs" />
+            <marker date="1662798394981" expanded="true" signature="17679:17739" ph="SELECT * FRO... works" />
+            <marker date="1662798394981" expanded="true" signature="18024:18133" ph="INSERT INTO `work_status`... " />
+            <marker date="1662798394981" expanded="true" signature="18405:18464" ph="update works... " />
+            <marker date="1662798394981" expanded="true" signature="18621:18704" ph="SELECT * FRO... works" />
+            <marker date="1662798394981" expanded="true" signature="18878:18927" ph="SELECT * FRO... work_status" />
+            <marker date="1662798394981" expanded="true" signature="19111:19366" ph="SELECT `help... passenger" />
+            <marker date="1662798394981" expanded="true" signature="19554:19628" ph="update help_... " />
+            <marker date="1662798394981" expanded="true" signature="20087:20174" ph="INSERT INTO login... " />
+            <marker date="1662798394981" expanded="true" signature="20192:20328" ph="INSERT INTO passenger... " />
+            <marker date="1662798394981" expanded="true" signature="20533:20615" ph="SELECT * FRO... login" />
+            <marker date="1662798394981" expanded="true" signature="21008:21060" ph="SELECT * FRO... passenger" />
+            <marker date="1662798394981" expanded="true" signature="21391:21412" ph="SELECT * FRO... service" />
+            <marker date="1662798394981" expanded="true" signature="21664:21713" ph="SELECT * FRO... SCHEDULE" />
+            <marker date="1662798394981" expanded="true" signature="21664:21733" ph="SELECT * FRO... SCHEDULE" />
+            <marker date="1662798394981" expanded="true" signature="21949:22056" ph="SELECT * FRO... shops" />
+            <marker date="1662798394981" expanded="true" signature="22309:22354" ph="SELECT * FRO... product" />
+            <marker date="1662798394981" expanded="true" signature="22617:22730" ph="SELECT * FRO... help_request" />
+            <marker date="1662798394981" expanded="true" signature="22978:23034" ph="DELETE FROM " />
+            <marker date="1662798394981" expanded="true" signature="23235:23393" ph="INSERT INTO `help_request`... " />
+            <marker date="1662798394981" expanded="true" signature="23559:23612" ph="SELECT * FRO... help_request" />
+            <marker date="1662798394981" expanded="true" signature="23864:23915" ph="DELETE FROM " />
+            <marker date="1662798394981" expanded="true" signature="24124:24260" ph="INSERT INTO `help_request`... " />
+          </folding>
         </state>
       </provider>
     </entry>

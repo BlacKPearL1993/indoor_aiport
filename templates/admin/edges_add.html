@@ -1,0 +1,82 @@
+{% extends 'admin/admin_temp.html' %}
+ {% block body %}
+
+<form method="post" action="/admin_Addegespost">
+    <table class="table table-bordered">
+        <tr>
+            <th>Room Info</th>
+            <th>
+                <select name="flrnamea" class="form-control">
+                    {% for i in d %}
+                     <option value="{{ i['floor_places_id'] }}">{{ i["place_name"] }}</option>
+                    {% endfor %}
+                </select>
+            </th>
+        </tr>
+        <tr>
+            <th>Room Info</th>
+            <th>
+                <select name="flrnameb" class="form-control">
+                    {% for i in d %}
+                       <option value="{{ i['floor_places_id'] }}">{{ i["place_name"] }}</option>
+                    {% endfor %}
+                </select>
+            </th>
+        </tr>
+
+        <tr>
+
+            <td>Direction</td>
+            <td>
+                <select name="dir" class="form-control" class="form-control">
+                    <option value="North">North</option>
+                    <option value="South">South</option>
+                    <option value="West">West</option>
+                    <option value="East">East</option>
+                </select>
+            </td>
+        </tr>
+
+    <tr>
+        <td>Distance</td>
+        <td><input type="text" name="distance" class="form-control"></td>
+    </tr>
+
+
+        <tr>
+            <td colspan="2" align="center"><input type="submit" value="Submit" class="btn btn-success"/> </td>
+        </tr>
+    </table>
+
+</form>
+<br>
+
+<br>
+
+
+<table class="table table-bordered">
+    <tr>
+        <th>#</th>
+        <th>RoomName1</th>
+        <th>RoomName2</th>
+        <th>Distance</th>
+        <th>Direction</th>
+        <th></th>
+    </tr>
+    {% for i in all %}
+    <tr>
+        <td>{{ loop.index }}</td>
+        <td>{{  i["aplace"] }}</td>
+        <td>{{  i["bplace"] }}</td>
+        <td>{{ i["distance"] }}</td>
+        <td>{{ i["direction"] }}</td>
+        <td width="50px"><a href="/deleteedges/{{ i["id"] }}" class="btn btn-danger">Delete</a></td>
+    </tr>
+    {% endfor %}
+
+
+
+</table>
+
+{% endblock %}
+

@@ -1,8 +1,2 @@
 flask==2.0.3
 mysql-connector==2.2.9
-
-/home/BlackPearl/.virtualenvs/myvirtualenv/bin/python
-
-host : BlackPearl.mysql.pythonanywhere-services.com
-username : BlackPearl
-password : aa11bb22cc33dd44
